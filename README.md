@@ -6,25 +6,24 @@ Este es un paquete de pruebas de despliegue en NPM
 ## Ejemplo
 
 ```
-  import {} from 'jcp-product-card'
+  import { ProductCard, ProductImage, ProductTitle, ProductButtons } from 'jcp-product-card'
 ```
 
 ```
 <ProductCard
-                product={product}
-                initialValues={{
-                    count: 0,
-                    maxCount: 10,
-                }}
-            >
-                {
-                    () => (
-                        <>
-                            <ProductImage  />
-                            <ProductTitle  />
-                            <ProductButtons />
-                        </>
-                    )
-                }
-            </ProductCard>
+    product={product}
+    initialValues={{
+        count: 0,
+        maxCount: 10
+        }}
+    >
+    {
+        () => (
+            <>
+                <ProductImage  />
+                <ProductTitle  />
+                <ProductButtons />
+            </>
+            )}
+</ProductCard>
 ```
