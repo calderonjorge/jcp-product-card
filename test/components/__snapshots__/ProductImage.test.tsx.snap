@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Product Image should show the image by props 1`] = `
+<img
+  alt="Product"
+  className="productImg undefined"
+  src="default-image"
+/>
+`;
+
+exports[`Product Image should show the product image 1`] = `
+<div
+  className="productCard undefined"
+>
+  <img
+    alt="Product"
+    className="productImg undefined"
+    src="./coffee-mug.png"
+  />
+</div>
+`;
