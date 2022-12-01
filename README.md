@@ -24,6 +24,7 @@ Este es un paquete de pruebas de despliegue en NPM
                 <ProductTitle  />
                 <ProductButtons />
             </>
-            )}
+            )
+    }
 </ProductCard>
 ```
