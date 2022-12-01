@@ -6,7 +6,7 @@ import { Product } from '../dist/interfaces/Product.interfaces';
 
 const product: Product = {
   id: '1',
-  title: 'Coffee Mug',
+  title: 'Coffee Mug !',
 };
 
 const App = () => {

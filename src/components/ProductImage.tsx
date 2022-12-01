@@ -21,5 +21,5 @@ export const ProductImage = ({ img, className, style }: Props) => {
         imgToShow = noImage;
     }
 
-    return <img className={`${styles.productImg} ${className}`} style={style} src={imgToShow} alt="Product" />
+    return <img className={`${styles.productImg} ${className}`} style={style} src={imgToShow} alt="Product!" />
 }
